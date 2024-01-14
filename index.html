@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscrição </title>
+</head>
+<body>
+    <div>
+        <h1>Formulário de Inscrição</h1>
+    </div>
+    <div>
+        <form>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="telefone">Whatsapp:</label>
+                <br>
+                <input type="text" name="telefone" id="telefone">
+                <br><br>
+            </div>
+            <div>
+                <label for="atuacao">Área de atuação:</label>
+                <br>
+        
+                <input type="radio" name="atuacao" id="atuacao" value="desenvolvimento">
+                <label for="atuacao">Desenvolvimento</label>
+            
+                <input type="radio" name="atuacao" id="atuacao" value="QA">
+                <label for="atuacao">Quality Assurance (QA)</label>
+            
+                <input type="radio" name="atuacao" id="atuacao" value="Analise-de- dados">
+                <label for="atuacao">Análise de Dados</label>
+            
+                <input type="radio" name="atuacao" id="atuacao" value="infraestrutura">
+                <label for="atuacao">Infraestrutura</label>
+            </div>
+            <br>
+            <div>
+                <label for="observacoes">Observações:</label>
+                <br>
+                <textarea name="observacoes" id="observacoes"></textarea >
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" nome="receber-novidades" id="receber-novidades" checked required>
+                <label for="receber-novidades">Desejo receber novidades e ofertas por email</label>
+            </div>
+            <div>
+                <button type="subimit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
